@@ -41,7 +41,7 @@ body {
 .fixed-top {
   position: fixed;
   top: 0;
-  width: auto;
+  width: 100%;
   z-index: 1030; 
 }
 
@@ -60,14 +60,13 @@ section h2 {
   margin-top: 3%;
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
   background-color:#fff8ee;
-  padding: 0;
+  padding: 10px;
 }
 
 #home p{
   font-family: 'Montserrat', serif;
   font-size: 1rem;
 }
-
 
 #home h3 {
   font-family: 'Playfair Display', serif;
@@ -77,9 +76,12 @@ section h2 {
 }
 
 .home-details {
-padding: 8em;
-display: inline-block;
-margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+  margin: 0 auto;
 }
 
 .button-92 {
@@ -112,7 +114,8 @@ margin: 0 auto;
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   font-size: 2rem;
-  margin: 0;
+  margin: 0 auto;
+  text-align: center;
   cursor: pointer;
   padding: .1em .3em;
 }
