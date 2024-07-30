@@ -87,7 +87,7 @@ section h2 {
 .button-92 {
   --c: #fff;
   background: linear-gradient(90deg, #0000 33%, #fff5, #0000 67%) var(--_p,100%)/300% no-repeat,
-    #004dff;
+    #0040d6;
   color: #ffffff00;
   border: none;
   transform: perspective(500px) rotateY(calc(20deg*var(--_i,-1)));
@@ -99,6 +99,7 @@ section h2 {
 
 .button-92:hover,
 .button-92:focus-visible {
+  color: #ffffff00;
   --_p: 0%;
   --_i: 1;
 }
